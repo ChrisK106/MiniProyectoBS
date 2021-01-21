@@ -1,0 +1,31 @@
+﻿@model IEnumerable<MiniProyecto.Models.Album>
+
+@{
+    ViewBag.Title = "Inicio";
+}
+
+<div class="py-2">
+    <h5>Seleccione un álbum para obtener un listado de sus fotos...</h5>
+</div>
+
+<div class="row py-2">
+    <div class="col-md-12">
+        <div class="form-group">
+            <label>Albums</label>
+            <select class="form-control select2" id="album-list">
+
+                <option value="">(Seleccione un álbum...)</option>
+
+                @foreach (var item in Model)
+                {
+                    <option value="@Html.DisplayFor(modelItem => item.Id)">@item.Id - @Html.DisplayFor(modelItem => item.Title)</option>
+                }
+            </select>
+            <input class="btn btn-primary" type="button" id="btnGetPhotos" value="Visualizar Álbum" />
+        </div>
+    </div>
+</div>
+
+<div id="photoTable" class="py-2"></div>
+
+<div id="commentList" class="py-2"></div>
