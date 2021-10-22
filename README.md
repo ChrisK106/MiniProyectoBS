@@ -1,2 +1,3 @@
-# Christian_Cano_21-01-21
-MiniProyecto - Bertoni Solutions
+# MiniProyecto - Bertoni Solutions
+* Publicado originalmente el 21 Enero de 2021
+* Desarrollado por Christian Cano
