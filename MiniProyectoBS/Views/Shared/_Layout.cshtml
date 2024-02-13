@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - MiniProyectoBS</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/adminlte.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" style="padding-left:2em;" href="#"><b>MiniProyectoBS</b></a>
+    </nav>
+
+    <div class="container body-content wrapper flex-grow-1">
+        @RenderBody()
+    </div>
+
+    <footer class="bg-dark">
+        <p><b>&copy; @DateTime.Now.Year - MiniProyectoBS por Christian Cano</b></p>
+    </footer>
+
+    <script src="~/Scripts/jquery-3.7.1.min.js"></script>
+    <script src="~/Scripts/adminlte.min.js"></script>
+    <script src="~/Scripts/select2.min.js"></script>
+    <script src="~/Scripts/myCode.js"></script>
+
+</body>
+
+</html>
