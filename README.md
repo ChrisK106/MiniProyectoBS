@@ -3,7 +3,9 @@
 ![MiniProyectoBS_logo](https://github.com/ChrisK106/MiniProyectoBS/assets/46413807/42880773-84ea-46f8-b26c-15da8848bf6c)
 
 *Desarrollado y publicado originalmente el 21 de Enero de 2021 para Bertoni Solutions*
+
 ## 
+
 Este miniproyecto es una aplicación web ASP.NET MVC que realiza consultas a [JSONPlaceholder REST API](https://jsonplaceholder.typicode.com/)
 
 
