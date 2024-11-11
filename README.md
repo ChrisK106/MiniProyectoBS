@@ -1,4 +1,4 @@
-[![CodeQL](https://github.com/ChrisK106/MiniProyectoBS/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/ChrisK106/MiniProyectoBS/actions/workflows/github-code-scanning/codeql)
+[![CodeQL Advanced](https://github.com/ChrisK106/MiniProyectoBS/actions/workflows/codeql.yml/badge.svg)](https://github.com/ChrisK106/MiniProyectoBS/actions/workflows/codeql.yml)
 [![pages-build-deployment](https://github.com/ChrisK106/MiniProyectoBS/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ChrisK106/MiniProyectoBS/actions/workflows/pages/pages-build-deployment)
 
 ![MiniProyectoBS_logo](https://github.com/ChrisK106/MiniProyectoBS/assets/46413807/42880773-84ea-46f8-b26c-15da8848bf6c)
