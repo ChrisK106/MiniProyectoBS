@@ -10,9 +10,11 @@ using MiniProyecto.Models;
 namespace MiniProyecto.Controllers
 {
     public class HomeController : Controller
-    { 
+    {
+        // Base URL for the JSONPlaceholder API
         private readonly string BaseUrl = "https://jsonplaceholder.typicode.com/";
 
+        // GET: Home
         public async Task<ActionResult> Index()
         {
             List<Album> AlbumInfo = new List<Album>();
@@ -37,6 +39,7 @@ namespace MiniProyecto.Controllers
             }
         }
 
+        // Action to fetch photos for a specific album
         public async Task<ActionResult> PhotoTable(int id)
         {
             List<Photo> PhotoInfo = new List<Photo>();
@@ -61,6 +64,7 @@ namespace MiniProyecto.Controllers
             }
         }
 
+        // Action to fetch comments for a specific post
         public async Task<ActionResult> CommentList(int id)
         {
             List<Comment> CommentInfo = new List<Comment>();
